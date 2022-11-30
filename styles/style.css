@@ -1,0 +1,123 @@
+@import url(reset.css);
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: vazirBold;
+    src: url('../fonts/vazir-bold.eot');
+    src: url('../fonts/vazir-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir-bold.woff2') format('woff2'), url('../fonts/vazir-bold.woff') format('woff'), url('../fonts/vazir-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;}
+
+    /* general styles */
+    body
+    {
+        background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%);
+        font-family: 'vazirNormal';
+        direction: rtl;  
+
+    }
+
+    input
+    {
+        font-family: 'vazirNormal';
+    }
+
+    /* loginForm-container styles */
+    #loginForm-container
+    {
+        width: 400px;
+        background-color: #fff;
+        border-radius: 3px;
+        padding: 60px;
+        margin: 200px auto 0 auto;
+    }
+
+    /* title of form styles */
+    .title
+    {
+        font-family: 'vazirBold';
+        color: #1E88E5;
+        font-size: 23px;
+    }
+
+    /* login Form styles */
+    .loginForm
+    {
+        margin-top: 20px;
+    }
+
+    /* input labels styles */
+    label
+    {
+        display:block;
+        font-size:14px ;
+        padding: 8px 0;
+    }
+
+    /* inputs styles */
+    input
+    {
+        background-color: #e4e4e4;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding: 10px;
+        border: none;
+    }
+
+    input:focus
+    {
+        outline-style: none;
+        background-color:  #e0e0e0;
+    }
+
+    .pass-container
+    {
+        margin-top: 10px;
+        position: relative;
+    }
+
+    /* eye image styles */
+
+    .myImg
+    {
+        width: 18px;
+        opacity: 0.6;
+        position: absolute;
+        left:5px ;
+        bottom: 11px;
+        display: none;
+
+    }
+
+    .myImg:hover
+    {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    /* submit btn styles */
+    .submit
+    {
+        background-color: #1E88E5;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        margin-top: 40px;
+
+    }
+
+    .submit:hover
+    {
+        background-color: #1d7bcc ;
+        cursor: pointer;
+    }
+
+
